@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #2f2f2f;
+  margin: 0 auto;
+}
+.back {
+  align-items: center;
+  margin: 30px auto;
+  width: 400px;
+  height: 550px;
+  background-color: #fdec51;
+  position: relative;
+}
+.back div {
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back div button {
+  font-size: 30px;
+  border: none;
+  font-weight: 100;
+  background-color: #fdec51;
+}
+.card {
+  height: 450px;
+  width: 400px;
+  margin-left: 40px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: white;
+}
+.email,
+.username-txt,
+lname-txt {
+  margin: 0 auto;
+  margin-left: 0;
+}
+img {
+  margin: 0 auto;
+  width: 50px;
+}
+form label {
+  font-weight: bold;
+  opacity: 50%;
+}
+.lname-txt {
+  padding-left: 95px;
+}
+
+textarea,
+form input {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+
+::placeholder {
+  color: black;
+  font-weight: bold;
+  opacity: 90%;
+}
